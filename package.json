@@ -1,0 +1,20 @@
+{
+  "name": "appium-saucelabs-cucumber",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Appium + WebdriverIO + Cucumber + Page Objects on Sauce Labs (Android)",
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "dependencies": {
+    "appium": "^2.11.0",
+    "dotenv": "^16.4.5",
+    "webdriverio": "^9.20.0"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.20.0",
+    "@wdio/local-runner": "^9.20.0",
+    "@wdio/cucumber-framework": "^9.20.0",
+    "@wdio/sauce-service": "^9.20.0"
+  }
+}
